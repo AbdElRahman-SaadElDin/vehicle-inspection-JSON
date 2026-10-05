@@ -1,0 +1,400 @@
+{
+  "sites": [
+    {
+      "site": "محرم بك",
+      "site_id": 1,
+      "Government": "الاسكندرية"
+    },
+    {
+      "site": "المنتزه",
+      "site_id": 2,
+      "Government": "الاسكندرية"
+    },
+    {
+      "site": "ام زغيو",
+      "site_id": 3,
+      "Government": "الاسكندرية"
+    },
+    {
+      "site": "بورفؤاد",
+      "site_id": 4,
+      "Government": "بورسعيد"
+    },
+    {
+      "site": "بورسعيد",
+      "site_id": 5,
+      "Government": "بورسعيد"
+    },
+    {
+      "site": "شبرا",
+      "site_id": 6,
+      "Government": "القاهرة"
+    },
+    {
+      "site": "حلوان",
+      "site_id": 7,
+      "Government": "القاهرة"
+    }
+  ],
+  "employees": [
+    {
+      "name_id": 29246,
+      "name": "عبدالرحمن محمد سعدالدين",
+      "site_id": 5,
+      "shift": "صباحي",
+      "password": "123456"
+    },
+    {
+      "name_id": 1099,
+      "name": "شادي عبدالعزيز",
+      "site_id": 5,
+      "shift": "صباحي",
+      "password": "123456"
+    },
+    {
+      "name_id": 100,
+      "name": "هاني ذكي",
+      "site_id": 4,
+      "shift": "صباحي",
+      "password": "123456"
+    },
+    {
+      "name_id": 200,
+      "name": "حامد احمد",
+      "site_id": 1,
+      "shift": "صباحي",
+      "password": "123456"
+    },
+    {
+      "name_id": 29247,
+      "name": "انس عبدالسلام",
+      "site_id": 2,
+      "shift": "مسائي",
+      "password": "123456"
+    },
+    {
+      "name_id": 29248,
+      "name": "رامز عبدالرؤوف",
+      "site_id": 3,
+      "Government": "الاسكندرية",
+      "shift": "صباحي",
+      "password": "123456",
+      "id": 29248
+    }
+  ],
+  "sectors": [
+    {
+      "sector_id": 1,
+      "sector_name": "النظافة الحضارية"
+    },
+    {
+      "sector_id": 2,
+      "sector_name": "الكورنيش"
+    },
+    {
+      "sector_id": 3,
+      "sector_name": "التعاقدات الخاصة"
+    },
+    {
+      "sector_id": 4,
+      "sector_name": "المحطة الوسيطة"
+    }
+  ],
+  "vehicles": [
+    {
+      "vehicle_id": "س ص ع 7972",
+      "vehicle_type": "جمع 7 م",
+      "sector": "النظافة الحضارية",
+      "site_id": 1,
+      "Government": "الاسكندرية"
+    },
+    {
+      "vehicle_id": "س ص ع 7973",
+      "vehicle_type": "جمع 14 م",
+      "sector": "الكورنيش",
+      "site_id": 1,
+      "Government": "الاسكندرية"
+    },
+    {
+      "vehicle_id": "أ ب ج 1001",
+      "vehicle_type": "جمع 16 م",
+      "sector": "النظافة الحضارية",
+      "site": "أم زغيو",
+      "Government": "الاسكندرية"
+    },
+    {
+      "vehicle_id": "أ ب ج 1002",
+      "vehicle_type": "مكنسة",
+      "sector": "الكورنيش",
+      "site": "المنتزه",
+      "Government": "الاسكندرية"
+    },
+    {
+      "vehicle_id": "أ ب ج 1003",
+      "vehicle_type": "قلاب",
+      "sector": "المحطة الوسيطة",
+      "site": "شبرا",
+      "Government": "القاهرة"
+    },
+    {
+      "vehicle_id": "أ ب ج 1004",
+      "vehicle_type": "لودر",
+      "sector": "التعاقدات الخاصة",
+      "site": "حلوان",
+      "Government": "القاهرة"
+    },
+    {
+      "vehicle_id": "أ ب ج 1005",
+      "vehicle_type": "طواري",
+      "sector": "النظافة الحضارية",
+      "site": "بورسعيد",
+      "Government": "بورسعيد"
+    },
+    {
+      "vehicle_id": "أ ب ج 1006",
+      "vehicle_type": "بيتش كلين",
+      "sector": "الكورنيش",
+      "site": "بورفؤاد",
+      "Government": "بورسعيد"
+    }
+  ],
+  "daily_inspections": [
+    {
+      "park": 1234,
+      "vehicle_id": "س ص ع 7972",
+      "employee_id": 29246,
+      "inspection_date": "2024-06-01",
+      "inspection_time": "08:00",
+      "in_out": "دخول",
+      "inspection_items": {
+        "زجاج امامي": true,
+        "زجاج يمين": true,
+        "زجاج شمال": true,
+        "مرايا يمين": true,
+        "مرايا شمال": true,
+        "انوار امامية يمين": true,
+        "انوار امامية شمال": true,
+        "انوار خلفية يمين": true,
+        "انوار خلفية شمال": true,
+        "رخصة السيارة": true,
+        "الطفاية": true,
+        "الاطارات الأمامية": true,
+        "الاطارات الخلفية": true,
+        "الفرامل": true,
+        "اللوحات الأمامية": true,
+        "اللوحات الخلفية": true
+      }
+    },
+    {
+      "park": 1234,
+      "vehicle_id": "س ص ع 7972",
+      "employee_id": 29246,
+      "inspection_date": "2024-06-01",
+      "inspection_time": "17:00",
+      "in_out": "خروج",
+      "inspection_items": {
+        "زجاج امامي": true,
+        "زجاج يمين": true,
+        "زجاج شمال": true,
+        "مرايا يمين": false,
+        "مرايا شمال": true,
+        "انوار امامية يمين": true,
+        "انوار امامية شمال": true,
+        "انوار خلفية يمين": true,
+        "انوار خلفية شمال": true,
+        "رخصة السيارة": true,
+        "الطفاية": true,
+        "الاطارات الأمامية": true,
+        "الاطارات الخلفية": true,
+        "الفرامل": true,
+        "اللوحات الأمامية": true,
+        "اللوحات الخلفية": true
+      }
+    },
+    {
+      "park": 1234,
+      "vehicle_id": "س ص ع 7972",
+      "employee_id": 29246,
+      "inspection_date": "2024-06-02",
+      "inspection_time": "08:00",
+      "in_out": "دخول",
+      "inspection_items": {
+        "زجاج امامي": true,
+        "زجاج يمين": true,
+        "زجاج شمال": true,
+        "مرايا يمين": false,
+        "مرايا شمال": true,
+        "انوار امامية يمين": true,
+        "انوار امامية شمال": true,
+        "انوار خلفية يمين": true,
+        "انوار خلفية شمال": true,
+        "رخصة السيارة": true,
+        "الطفاية": true,
+        "الاطارات الأمامية": true,
+        "الاطارات الخلفية": true,
+        "الفرامل": true,
+        "اللوحات الأمامية": true,
+        "اللوحات الخلفية": true
+      }
+    }
+  ],
+  "accident_orders": [
+    {
+      "order_id": 1,
+      "vehicle_id": "س ص ع 7972",
+      "accident_date": "2024-06-01",
+      "accident_time": "10:00",
+      "accident_Damages": "كسر مرايا يمين",
+      "accident_description": "حادث بسيط",
+      "Driver_name": "جوزيف يعقوب",
+      "Driver_id": "1212",
+      "reporter_name": "عبدالرحمن سعدالدين",
+      "reporter_id": 29246
+    },
+    {
+      "order_id": 2,
+      "vehicle_id": "س ص ع 7973",
+      "accident_date": "2026-06-01",
+      "accident_time": "18:00",
+      "accident_Damages": "كسر مرايا شمال",
+      "accident_description": "عند خروج السيارة من الموقع قامت بالاصطدام بسيارة اخرى تابعة للمقاوب",
+      "Driver_name": "جوزيف يعقوب",
+      "Driver_id": "1212",
+      "reporter_name": "عبدالرحمن سعدالدين",
+      "reporter_id": 29246
+    },
+    {
+      "order_id": 3,
+      "vehicle_id": "أ ب ج 1005",
+      "accident_date": "2026-10-01",
+      "accident_time": "19:45",
+      "accident_Damages": "كسر اكصدام امامي",
+      "accident_description": "حادث بسيط",
+      "Driver_name": "جوزيف يعقوب",
+      "Driver_id": "1212",
+      "reporter_name": "عبدالرحمن سعدالدين",
+      "reporter_id": 29246
+    }
+  ],
+  "vehicle_types": [
+    "جمع 7 م",
+    "جمع 14 م",
+    "جمع 16 م",
+    "جمع 22 م",
+    "هوك لفت",
+    "لودر",
+    "كشف",
+    "طواري",
+    "تانك",
+    "مكنسة",
+    "معدة",
+    "كباش",
+    "قلاب",
+    "بيتش كلين"
+  ],
+  "sectors": [
+    "النظافة الحضارية",
+    "الكورنيش",
+    "التعاقدات الخاصة",
+    "المحطة الوسيطة"
+  ],
+  "inspection_items": [
+    "زجاج امامي",
+    "زجاج يمين",
+    "زجاج شمال",
+    "مرايا يمين",
+    "مرايا شمال",
+    "انوار امامية يمين",
+    "انوار امامية شمال",
+    "انوار خلفية يمين",
+    "انوار خلفية شمال",
+    "رخصة السيارة",
+    "الطفاية",
+    "الاطارات الأمامية",
+    "الاطارات الخلفية",
+    "الفرامل",
+    "اللوحات الأمامية",
+    "اللوحات الخلفية"
+  ],
+  "inspection_records": [
+    {
+      "park": 1234,
+      "vehicle_id": "س ص ع 7972",
+      "employee_id": 29246,
+      "inspection_date": "2024-06-01",
+      "inspection_time": "08:00",
+      "in_out": "دخول",
+      "inspection_items": {
+        "زجاج امامي": true,
+        "زجاج يمين": true,
+        "زجاج شمال": true,
+        "مرايا يمين": false,
+        "مرايا شمال": true,
+        "انوار امامية يمين": true,
+        "انوار امامية شمال": true,
+        "انوار خلفية يمين": true,
+        "انوار خلفية شمال": true,
+        "رخصة السيارة": true,
+        "الطفاية": true,
+        "الاطارات الأمامية": true,
+        "الاطارات الخلفية": true,
+        "الفرامل": true,
+        "اللوحات الأمامية": true,
+        "اللوحات الخلفية": true
+      }
+    },
+    {
+      "park": 6767,
+      "vehicle_id": "أ ب ج 1005",
+      "employee_id": 29246,
+      "inspection_date": "2024-06-01",
+      "inspection_time": "08:00",
+      "in_out": "دخول",
+      "inspection_items": {
+        "زجاج امامي": true,
+        "زجاج يمين": true,
+        "زجاج شمال": true,
+        "مرايا يمين": true,
+        "مرايا شمال": true,
+        "انوار امامية يمين": false,
+        "انوار امامية شمال": true,
+        "انوار خلفية يمين": true,
+        "انوار خلفية شمال": true,
+        "رخصة السيارة": true,
+        "الطفاية": true,
+        "الاطارات الأمامية": true,
+        "الاطارات الخلفية": false,
+        "الفرامل": true,
+        "اللوحات الأمامية": true,
+        "اللوحات الخلفية": true
+      }
+    },
+    {
+      "park": 1234,
+      "vehicle_id": "أ ب ج 1006",
+      "employee_id": 29246,
+      "inspection_date": "2024-06-01",
+      "inspection_time": "17:00",
+      "in_out": "خروج",
+      "inspection_items": {
+        "زجاج امامي": false,
+        "زجاج يمين": true,
+        "زجاج شمال": true,
+        "مرايا يمين": false,
+        "مرايا شمال": false,
+        "انوار امامية يمين": true,
+        "انوار امامية شمال": true,
+        "انوار خلفية يمين": true,
+        "انوار خلفية شمال": true,
+        "رخصة السيارة": true,
+        "الطفاية": false,
+        "الاطارات الأمامية": true,
+        "الاطارات الخلفية": false,
+        "الفرامل": true,
+        "اللوحات الأمامية": true,
+        "اللوحات الخلفية": false
+      }
+    }
+    
+  ]
+}
