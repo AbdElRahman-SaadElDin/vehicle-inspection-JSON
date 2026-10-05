@@ -36,51 +36,6 @@
       "Government": "القاهرة"
     }
   ],
-  "employees": [
-    {
-      "name_id": 29246,
-      "name": "عبدالرحمن محمد سعدالدين",
-      "site_id": 5,
-      "shift": "صباحي",
-      "password": "123456"
-    },
-    {
-      "name_id": 1099,
-      "name": "شادي عبدالعزيز",
-      "site_id": 5,
-      "shift": "صباحي",
-      "password": "123456"
-    },
-    {
-      "name_id": 100,
-      "name": "هاني ذكي",
-      "site_id": 4,
-      "shift": "صباحي",
-      "password": "123456"
-    },
-    {
-      "name_id": 200,
-      "name": "حامد احمد",
-      "site_id": 1,
-      "shift": "صباحي",
-      "password": "123456"
-    },
-    {
-      "name_id": 29247,
-      "name": "انس عبدالسلام",
-      "site_id": 2,
-      "shift": "مسائي",
-      "password": "123456"
-    },
-    {
-      "name_id": 29248,
-      "name": "رامز عبدالرؤوف",
-      "site_id": 3,
-      "shift": "صباحي",
-      "password": "123456",
-      "id": 29248
-    }
-  ],
   "sectors": [
     {
       "sector_id": 1,
@@ -146,6 +101,51 @@
     "بيتش كلين",
     "مقطورة",
     "تروسيكل"
+  ],
+    "employees": [
+    {
+      "name_id": 29246,
+      "name": "عبدالرحمن محمد سعدالدين",
+      "site_id": 5,
+      "shift": "صباحي",
+      "password": "123456"
+    },
+    {
+      "name_id": 1099,
+      "name": "شادي عبدالعزيز",
+      "site_id": 5,
+      "shift": "صباحي",
+      "password": "123456"
+    },
+    {
+      "name_id": 100,
+      "name": "هاني ذكي",
+      "site_id": 4,
+      "shift": "صباحي",
+      "password": "123456"
+    },
+    {
+      "name_id": 200,
+      "name": "حامد احمد",
+      "site_id": 1,
+      "shift": "صباحي",
+      "password": "123456"
+    },
+    {
+      "name_id": 29247,
+      "name": "انس عبدالسلام",
+      "site_id": 2,
+      "shift": "مسائي",
+      "password": "123456"
+    },
+    {
+      "name_id": 29248,
+      "name": "رامز عبدالرؤوف",
+      "site_id": 3,
+      "shift": "صباحي",
+      "password": "123456",
+      "id": 29248
+    }
   ],
   "vehicles": [
     {
