@@ -671,7 +671,7 @@
       "vehicle_number": "س ل ج 5772",
       "vehicle_type_id": "17-5",
       "sector": "Q",
-      "site_id": 1,
+      "site_id": 2,
       "id": 33
     },
     {
@@ -679,7 +679,7 @@
       "vehicle_number": "س د ي 5765",
       "vehicle_type_id": "17-5",
       "sector": "Q",
-      "site_id": 1,
+      "site_id": 2,
       "id": 34
     },
     {
@@ -862,8 +862,8 @@
       "park": 1439,
       "vehicle_number": "س د و 5325",
       "vehicle_type_id": "17-5",
-      "sector": "RES",
-      "site_id": 1,
+      "sector": "Q",
+      "site_id": 2,
       "id": 57
     },
     {
@@ -878,8 +878,8 @@
       "park": 1443,
       "vehicle_number": "س د ه 1979",
       "vehicle_type_id": "17-5",
-      "sector": "RES",
-      "site_id": 1,
+      "sector": "Q",
+      "site_id": 2,
       "id": 59
     },
     {
@@ -897,6 +897,190 @@
       "sector": "RES",
       "site_id": 1,
       "id": 61
+    },
+    {
+      "park": 1467,
+      "vehicle_number": "س ر ص 1993",
+      "vehicle_type_id": "17-4",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 62
+    },
+    {
+      "park": 1460,
+      "vehicle_number": "س ر ص 1994",
+      "vehicle_type_id": "17-4",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 63
+    },
+    {
+      "park": 1449,
+      "vehicle_number": "س ر ص 1882",
+      "vehicle_type_id": "17-4",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 64
+    },
+    {
+      "park": 1458,
+      "vehicle_number": "س ن ر 6196",
+      "vehicle_type_id": "17-4",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 65
+    },
+    {
+      "park": 3214,
+      "vehicle_number": "س د و 4346",
+      "vehicle_type_id": "7",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 66
+    },
+    {
+      "park": 2149,
+      "vehicle_number": "س ل ج 5598",
+      "vehicle_type_id": "9-K",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 67
+    },
+    {
+      "park": 3753,
+      "vehicle_number": "3753",
+      "vehicle_type_id": "1",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 68
+    },
+    {
+      "park": 9459,
+      "vehicle_number": "9459",
+      "vehicle_type_id": "1",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 69
+    },
+    {
+      "park": 8681,
+      "vehicle_number": "8681",
+      "vehicle_type_id": "1",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 70
+    },
+    {
+      "park": 9149,
+      "vehicle_number": "9149",
+      "vehicle_type_id": "1",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 71
+    },
+    {
+      "park": 8363,
+      "vehicle_number": "8363",
+      "vehicle_type_id": "1",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 72
+    },
+    {
+      "park": 9121,
+      "vehicle_number": "9121",
+      "vehicle_type_id": "1",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 73
+    },
+    {
+      "park": 8358,
+      "vehicle_number": "8358",
+      "vehicle_type_id": "1",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 74
+    },
+    {
+      "park": 9484,
+      "vehicle_number": "9484",
+      "vehicle_type_id": "1",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 75
+    },
+    {
+      "park": 8289,
+      "vehicle_number": "8289",
+      "vehicle_type_id": "1",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 76
+    },
+    {
+      "park": 8929,
+      "vehicle_number": "8929",
+      "vehicle_type_id": "1",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 77
+    },
+    {
+      "park": 8387,
+      "vehicle_number": "8387",
+      "vehicle_type_id": "1",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 78
+    },
+    {
+      "park": 8786,
+      "vehicle_number": "8786",
+      "vehicle_type_id": "1",
+      "sector": "H",
+      "site_id": 2,
+      "id": 79
+    },
+    {
+      "park": 6035,
+      "vehicle_number": "6035",
+      "vehicle_type_id": "16",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 80
+    },
+    {
+      "park": 6086,
+      "vehicle_number": "6086",
+      "vehicle_type_id": "16",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 81
+    },
+    {
+      "park": 6081,
+      "vehicle_number": "6081",
+      "vehicle_type_id": "16",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 82
+    },
+    {
+      "park": 1507,
+      "vehicle_number": "س ن أ 6581",
+      "vehicle_type_id": "15",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 83
+    },
+    {
+      "park": 2151,
+      "vehicle_number": "س ل ج 5766",
+      "vehicle_type_id": "9",
+      "sector": "RES",
+      "site_id": 2,
+      "id": 84
     }
   ],
   "daily_inspections": [
