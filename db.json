@@ -38,111 +38,331 @@
   ],
   "sectors": {
     "النظافة الحضارية": {
-      "القباري":{
-      "sector_id": "E"
+      "القباري": {
+        "sector_id": "E"
+      },
+      "النصر": {
+        "sector_id": "F"
+      },
+      "وسط البلد": {
+        "sector_id": "G"
+      },
+      "محرم بك": {
+        "sector_id": "H"
+      },
+      "الابراهيمية": {
+        "sector_id": "I"
+      },
+      "ابيس": {
+        "sector_id": "J"
+      },
+      "سموحة": {
+        "sector_id": "K"
+      },
+      "سابا باشا": {
+        "sector_id": "L"
+      },
+      "باكوس": {
+        "sector_id": "M"
+      },
+      "سيوف": {
+        "sector_id": "N"
+      },
+      "المندرة": {
+        "sector_id": "O"
+      },
+      "سيدي بشر": {
+        "sector_id": "P"
+      },
+      "ابوقير": {
+        "sector_id": "Q"
+      },
+      "خورشيد": {
+        "sector_id": "R"
+      },
+      "الاحتياط": {
+        "sector_id": "RES"
+      }
     },
-    "النصر":{
-      "sector_id": "F"
-    },
-    "وسط البلد":{
-      "sector_id": "G"
-    },
-    "محرم بك":{
-      "sector_id": "H"
-    },
-    "الابراهيمية":{
-      "sector_id": "I"
-    },
-    "ابيس":{
-      "sector_id": "J"
-    },
-    "سموحة":{
-      "sector_id": "K"
-    },
-    "سابا باشا":{
-      "sector_id": "L"
-    },
-    "باكوس":{
-      "sector_id": "M"
-    },
-    "سيوف":{
-      "sector_id": "N"
-    },
-    "المندرة":{
-      "sector_id": "O"
-    },
-    "سيدي بشر":{
-      "sector_id": "P"
-    },
-    "ابوقير":{
-      "sector_id": "Q"
-    },
-    "خورشيد":{
-      "sector_id": "R"
-    },
-    "الاحتياط":{
-      "sector_id": "RES"
-    }
-    },
-    "الكورنيش":{
+    "الكورنيش": {
       "sector_id": "Cor"
     },
-    "تعاقدات خاصة":{
+    "تعاقدات خاصة": {
       "sector_id": "priv"
     },
-    "المحطة الوسيطة":{
+    "المحطة الوسيطة": {
       "sector_id": "station"
     },
-    "الطبية":{
+    "الطبية": {
       "sector_id": "med"
-    }  
-},
+    }
+  },
   "vehicle_types": [
-    {"vehicle_id": "17-1", "vehicle_type": "جمع 7 م"},
-    {"vehicle_id": "17-3", "vehicle_type": "جمع 14 م"},
-    {"vehicle_id": "17-4", "vehicle_type": "جمع 16 م"},
-    {"vehicle_id": "17-5", "vehicle_type": "جمع 22 م"},
-    {"vehicle_id": "9", "vehicle_type": "كشف"},
-    {"vehicle_id": "7", "vehicle_type": "هوك لفت"},    
-    {"vehicle_id": "9-T", "vehicle_type": "طواري"},
-    {"vehicle_id": "13", "vehicle_type": "تانك"},
-    {"vehicle_id": "8", "vehicle_type": "مكنسة"},
-    {"vehicle_id": "8-M", "vehicle_type": "معدة"},
-    {"vehicle_id": "15", "vehicle_type": "كباش"},
-    {"vehicle_id": "9-K", "vehicle_type": "قلاب"},
-    {"vehicle_id": "16", "vehicle_type": "لودر"},
-    {"vehicle_id": "18", "vehicle_type": "بيتش كلينر"},
-    {"vehicle_id": "100", "vehicle_type": "تريلا"},
-    {"vehicle_id": "med-17", "vehicle_type": "طبية"},
-    {"vehicle_id": "99", "vehicle_type": "مقطورة"},
-    {"vehicle_id": "1", "vehicle_type": "تروسيكل"}
+    {
+      "vehicle_id": "17-1",
+      "vehicle_type": "جمع 7 م"
+    },
+    {
+      "vehicle_id": "17-3",
+      "vehicle_type": "جمع 14 م"
+    },
+    {
+      "vehicle_id": "17-4",
+      "vehicle_type": "جمع 16 م"
+    },
+    {
+      "vehicle_id": "17-5",
+      "vehicle_type": "جمع 22 م"
+    },
+    {
+      "vehicle_id": "9",
+      "vehicle_type": "كشف"
+    },
+    {
+      "vehicle_id": "7",
+      "vehicle_type": "هوك لفت"
+    },
+    {
+      "vehicle_id": "9-T",
+      "vehicle_type": "طواري"
+    },
+    {
+      "vehicle_id": "13",
+      "vehicle_type": "تانك"
+    },
+    {
+      "vehicle_id": "8",
+      "vehicle_type": "مكنسة"
+    },
+    {
+      "vehicle_id": "8-M",
+      "vehicle_type": "معدة"
+    },
+    {
+      "vehicle_id": "15",
+      "vehicle_type": "كباش"
+    },
+    {
+      "vehicle_id": "9-K",
+      "vehicle_type": "قلاب"
+    },
+    {
+      "vehicle_id": "16",
+      "vehicle_type": "لودر"
+    },
+    {
+      "vehicle_id": "18",
+      "vehicle_type": "بيتش كلينر"
+    },
+    {
+      "vehicle_id": "100",
+      "vehicle_type": "تريلا"
+    },
+    {
+      "vehicle_id": "med-17",
+      "vehicle_type": "طبية"
+    },
+    {
+      "vehicle_id": "99",
+      "vehicle_type": "مقطورة"
+    },
+    {
+      "vehicle_id": "1",
+      "vehicle_type": "تروسيكل"
+    }
   ],
   "inspection_items": [
-    {"رخصة السيارة": ["تاريخ", "سارية", "منتهية","مسحوبة","مفقودة"]},
-    {"طفاية الحريق": ["عدد", "بدون"]},
-    {"زجاج امامي": ["سليم", "شرخ","كسر","بدون"]},
-    {"زجاج يمين": ["سليم","كسر","بدون","ماكينة","اوكرة"]},
-    {"زجاج شمال": ["سليم","كسر","بدون","ماكينة","اوكرة"]},
-    {"المساحات": ["تعمل", "لا تعمل","بدون"]},
-    {"مرايا يمين": ["سليم","كسر","شرخ"]},
-    {"مرايا شمال": ["سليم","كسر","شرخ"]},
-    {"ألة التنبيه": ["تعمل", "لا تعمل"]},
-    {"انوار امامية يمين": ["كسر اشارة", "كسر فانوس", "كسر عاكس", "شرخ اشارة", "شرخ فانوس", "شرخ عاكس"]},
-    {"انوار امامية شمال": ["كسر اشارة", "كسر فانوس", "كسر عاكس", "شرخ اشارة", "شرخ فانوس", "شرخ عاكس"]},
-    {"انوار خلفية يمين": ["كسر قاعدة", "كسر فانوس", "بدون"]},
-    {"انوار خلفية شمال": ["كسر قاعدة", "كسر فانوس", "بدون"]},
-    {"الفنار": ["بدون", "كسر", "سليم"]},
-    {"الفرامل": ["يعمل", "لا يعمل", "يد لا يعمل", "رجل لا يعمل"]},
-    {"الاطارات الأمامية يمين": ["سليم", "قطع", "مسح"]},
-    {"الاطارات الأمامية شمال": ["سليم", "قطع", "مسح"]},
-    {"الاطارات الخلفية يمين": ["سليم", "قطع أول", "مسح أول", "قطع ثاني", "مسح ثاني"]},
-    {"الاطارات الخلفية شمال": ["سليم", "قطع أول", "مسح أول", "قطع ثاني", "مسح ثاني"]},
-    {"تسريبات": ["بدون", "موتور", "هيدروليك", "مياه", "وقود", "باور", "فلفلين"]},
-    {"حالة العادم": ["بدون", "ابيض", "اسود"]},
-    {"عداد السرعة": ["يعمل", "لا يعمل", "بدون"]},
-    {"اللوحة الأمامية": ["سليم", "تالف", "بدون"]},
-    {"اللوحة الخلفية": ["سليم", "تالف", "بدون"]},
-    {"اخرى": []}
+    {
+      "رخصة السيارة": [
+        "تاريخ",
+        "سارية",
+        "منتهية",
+        "مسحوبة",
+        "مفقودة"
+      ]
+    },
+    {
+      "طفاية الحريق": [
+        "عدد",
+        "بدون"
+      ]
+    },
+    {
+      "زجاج امامي": [
+        "سليم",
+        "شرخ",
+        "كسر",
+        "بدون"
+      ]
+    },
+    {
+      "زجاج يمين": [
+        "سليم",
+        "كسر",
+        "بدون",
+        "ماكينة",
+        "اوكرة"
+      ]
+    },
+    {
+      "زجاج شمال": [
+        "سليم",
+        "كسر",
+        "بدون",
+        "ماكينة",
+        "اوكرة"
+      ]
+    },
+    {
+      "المساحات": [
+        "تعمل",
+        "لا تعمل",
+        "بدون"
+      ]
+    },
+    {
+      "مرايا يمين": [
+        "سليم",
+        "كسر",
+        "شرخ"
+      ]
+    },
+    {
+      "مرايا شمال": [
+        "سليم",
+        "كسر",
+        "شرخ"
+      ]
+    },
+    {
+      "ألة التنبيه": [
+        "تعمل",
+        "لا تعمل"
+      ]
+    },
+    {
+      "انوار امامية يمين": [
+        "كسر اشارة",
+        "كسر فانوس",
+        "كسر عاكس",
+        "شرخ اشارة",
+        "شرخ فانوس",
+        "شرخ عاكس"
+      ]
+    },
+    {
+      "انوار امامية شمال": [
+        "كسر اشارة",
+        "كسر فانوس",
+        "كسر عاكس",
+        "شرخ اشارة",
+        "شرخ فانوس",
+        "شرخ عاكس"
+      ]
+    },
+    {
+      "انوار خلفية يمين": [
+        "كسر قاعدة",
+        "كسر فانوس",
+        "بدون"
+      ]
+    },
+    {
+      "انوار خلفية شمال": [
+        "كسر قاعدة",
+        "كسر فانوس",
+        "بدون"
+      ]
+    },
+    {
+      "الفنار": [
+        "بدون",
+        "كسر",
+        "سليم"
+      ]
+    },
+    {
+      "الفرامل": [
+        "يعمل",
+        "لا يعمل",
+        "يد لا يعمل",
+        "رجل لا يعمل"
+      ]
+    },
+    {
+      "الاطارات الأمامية يمين": [
+        "سليم",
+        "قطع",
+        "مسح"
+      ]
+    },
+    {
+      "الاطارات الأمامية شمال": [
+        "سليم",
+        "قطع",
+        "مسح"
+      ]
+    },
+    {
+      "الاطارات الخلفية يمين": [
+        "سليم",
+        "قطع أول",
+        "مسح أول",
+        "قطع ثاني",
+        "مسح ثاني"
+      ]
+    },
+    {
+      "الاطارات الخلفية شمال": [
+        "سليم",
+        "قطع أول",
+        "مسح أول",
+        "قطع ثاني",
+        "مسح ثاني"
+      ]
+    },
+    {
+      "تسريبات": [
+        "بدون",
+        "موتور",
+        "هيدروليك",
+        "مياه",
+        "وقود",
+        "باور",
+        "فلفلين"
+      ]
+    },
+    {
+      "حالة العادم": [
+        "بدون",
+        "ابيض",
+        "اسود"
+      ]
+    },
+    {
+      "عداد السرعة": [
+        "يعمل",
+        "لا يعمل",
+        "بدون"
+      ]
+    },
+    {
+      "اللوحة الأمامية": [
+        "سليم",
+        "تالف",
+        "بدون"
+      ]
+    },
+    {
+      "اللوحة الخلفية": [
+        "سليم",
+        "تالف",
+        "بدون"
+      ]
+    },
+    {
+      "اخرى": []
+    }
   ],
   "employees": [
     {
@@ -195,9 +415,11 @@
       "vehicle_number": "س د و 5295",
       "vehicle_type_id": "17-5",
       "sector": "E",
-      "site_id": 1
+      "site_id": 1,
+      "id": 1
     },
     {
+      "id": 2,
       "park": 1428,
       "vehicle_number": "س د ى 7971",
       "vehicle_type_id": "17-5",
@@ -205,6 +427,7 @@
       "site_id": 1
     },
     {
+      "id": 3,
       "park": 1264,
       "vehicle_number": "س ه أ 5839",
       "vehicle_type_id": "17-4",
@@ -212,6 +435,7 @@
       "site_id": 1
     },
     {
+      "id": 4,
       "park": 1426,
       "vehicle_number": "س د ى 5785",
       "vehicle_type_id": "17-5",
@@ -219,6 +443,7 @@
       "site_id": 1
     },
     {
+      "id": 5,
       "park": 1404,
       "vehicle_number": "س ن ب 1267",
       "vehicle_type_id": "17-5",
@@ -226,6 +451,7 @@
       "site_id": 1
     },
     {
+      "id": 6,
       "park": 1131,
       "vehicle_number": "س ه أ 5971",
       "vehicle_type_id": "17-1",
@@ -233,6 +459,7 @@
       "site_id": 1
     },
     {
+      "id": 7,
       "park": 1408,
       "vehicle_number": "س ن ب 1253",
       "vehicle_type_id": "17-5",
@@ -240,6 +467,7 @@
       "site_id": 1
     },
     {
+      "id": 8,
       "park": 1291,
       "vehicle_number": "س ف أ 1765",
       "vehicle_type_id": "17-4",
@@ -247,6 +475,7 @@
       "site_id": 1
     },
     {
+      "id": 9,
       "park": 1277,
       "vehicle_number": "س ف ب 3295",
       "vehicle_type_id": "17-4",
@@ -254,6 +483,7 @@
       "site_id": 1
     },
     {
+      "id": 10,
       "park": 1263,
       "vehicle_number": "س ة أ 5841",
       "vehicle_type_id": "17-4",
@@ -261,6 +491,7 @@
       "site_id": 1
     },
     {
+      "id": 11,
       "park": 1251,
       "vehicle_number": "س ن أ 6932",
       "vehicle_type_id": "17-4",
@@ -268,6 +499,7 @@
       "site_id": 1
     },
     {
+      "id": 12,
       "park": 1126,
       "vehicle_number": "س ة ا 3987",
       "vehicle_type_id": "17-1",
@@ -275,6 +507,7 @@
       "site_id": 1
     },
     {
+      "id": 13,
       "park": 1288,
       "vehicle_number": "س ف أ 1854",
       "vehicle_type_id": "17-4",
@@ -282,6 +515,7 @@
       "site_id": 1
     },
     {
+      "id": 14,
       "park": 1132,
       "vehicle_number": "س ة أ 3928",
       "vehicle_type_id": "17-1",
@@ -289,6 +523,7 @@
       "site_id": 1
     },
     {
+      "id": 15,
       "park": 1285,
       "vehicle_number": "س ف أ 1853",
       "vehicle_type_id": "17-4",
@@ -296,6 +531,7 @@
       "site_id": 1
     },
     {
+      "id": 16,
       "park": 1409,
       "vehicle_number": "س ن ب 1248",
       "vehicle_type_id": "17-5",
@@ -303,6 +539,7 @@
       "site_id": 1
     },
     {
+      "id": 17,
       "park": 1429,
       "vehicle_number": "س د ى 7636",
       "vehicle_type_id": "17-5",
@@ -310,11 +547,356 @@
       "site_id": 1
     },
     {
+      "id": 18,
       "park": 3205,
       "vehicle_number": "س ل ص 7122",
       "vehicle_type_id": "7",
       "sector": "priv",
       "site_id": 1
+    },
+    {
+      "park": 1128,
+      "vehicle_number": "س ة أ 3926",
+      "vehicle_type_id": "17-1",
+      "sector": "K",
+      "site_id": 1,
+      "id": 19
+    },
+    {
+      "park": 1275,
+      "vehicle_number": "س و ب 4198",
+      "vehicle_type_id": "17-4",
+      "sector": "K",
+      "site_id": 1,
+      "id": 20
+    },
+    {
+      "park": 1427,
+      "vehicle_number": "س د ى 7972",
+      "vehicle_type_id": "17-5",
+      "sector": "K",
+      "site_id": 1,
+      "id": 21
+    },
+    {
+      "park": 2097,
+      "vehicle_number": "س ن ب 4386",
+      "vehicle_type_id": "17-1",
+      "sector": "L",
+      "site_id": 1,
+      "id": 22
+    },
+    {
+      "park": 1414,
+      "vehicle_number": "س ل ج 5844",
+      "vehicle_type_id": "17-5",
+      "sector": "L",
+      "site_id": 1,
+      "id": 23
+    },
+    {
+      "park": 1255,
+      "vehicle_number": "س د ة 1675",
+      "vehicle_type_id": "17-4",
+      "sector": "N",
+      "site_id": 1,
+      "id": 24
+    },
+    {
+      "park": 1293,
+      "vehicle_number": "س ف أ 1768",
+      "vehicle_type_id": "17-4",
+      "sector": "N",
+      "site_id": 1,
+      "id": 25
+    },
+    {
+      "park": 1260,
+      "vehicle_number": "س ل ب 5892",
+      "vehicle_type_id": "17-4",
+      "sector": "N",
+      "site_id": 1,
+      "id": 26
+    },
+    {
+      "park": 1401,
+      "vehicle_number": "س ن ب 1257",
+      "vehicle_type_id": "17-5",
+      "sector": "N",
+      "site_id": 1,
+      "id": 27
+    },
+    {
+      "park": 1287,
+      "vehicle_number": "س ف ا 1647",
+      "vehicle_type_id": "17-4",
+      "sector": "O",
+      "site_id": 1,
+      "id": 28
+    },
+    {
+      "park": 1270,
+      "vehicle_number": "س ة ا 5842",
+      "vehicle_type_id": "17-4",
+      "sector": "P",
+      "site_id": 2,
+      "id": 29
+    },
+    {
+      "park": 1411,
+      "vehicle_number": "س ن ب 1234",
+      "vehicle_type_id": "17-5",
+      "sector": "O",
+      "site_id": 2,
+      "id": 30
+    },
+    {
+      "park": 1416,
+      "vehicle_number": "س ل ج 5593",
+      "vehicle_type_id": "17-5",
+      "sector": "O",
+      "site_id": 2,
+      "id": 31
+    },
+    {
+      "park": 1412,
+      "vehicle_number": "5773",
+      "vehicle_type_id": "17-5",
+      "sector": "P",
+      "site_id": 1,
+      "id": 32
+    },
+    {
+      "park": 1417,
+      "vehicle_number": "س ل ج 5772",
+      "vehicle_type_id": "17-5",
+      "sector": "Q",
+      "site_id": 1,
+      "id": 33
+    },
+    {
+      "park": 1425,
+      "vehicle_number": "س د ي 5765",
+      "vehicle_type_id": "17-5",
+      "sector": "Q",
+      "site_id": 1,
+      "id": 34
+    },
+    {
+      "park": 1402,
+      "vehicle_number": "س ن ب 1238",
+      "vehicle_type_id": "17-5",
+      "sector": "O",
+      "site_id": 2,
+      "id": 35
+    },
+    {
+      "park": 1259,
+      "vehicle_number": "س ل ب 5729",
+      "vehicle_type_id": "17-4",
+      "sector": "R",
+      "site_id": 1,
+      "id": 36
+    },
+    {
+      "park": 1410,
+      "vehicle_number": "س ن ب 1247",
+      "vehicle_type_id": "17-5",
+      "sector": "R",
+      "site_id": 1,
+      "id": 37
+    },
+    {
+      "park": 1124,
+      "vehicle_number": "س ة أ 3942",
+      "vehicle_type_id": "17-1",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 38
+    },
+    {
+      "park": 1123,
+      "vehicle_number": "س ل ب 5872",
+      "vehicle_type_id": "17-1",
+      "sector": "P",
+      "site_id": 2,
+      "id": 39
+    },
+    {
+      "park": 1130,
+      "vehicle_number": "س ة أ 3945",
+      "vehicle_type_id": "17-1",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 40
+    },
+    {
+      "park": 1262,
+      "vehicle_number": "س ل أ 3942",
+      "vehicle_type_id": "17-3",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 41
+    },
+    {
+      "park": 1205,
+      "vehicle_number": "س ل أ 6813",
+      "vehicle_type_id": "17-4",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 42
+    },
+    {
+      "park": 1284,
+      "vehicle_number": "س ف أ 1527",
+      "vehicle_type_id": "17-4",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 43
+    },
+    {
+      "park": 1256,
+      "vehicle_number": "س ن ا 9426",
+      "vehicle_type_id": "17-4",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 44
+    },
+    {
+      "park": 1265,
+      "vehicle_number": "س ه أ 6193",
+      "vehicle_type_id": "17-4",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 45
+    },
+    {
+      "park": 1294,
+      "vehicle_number": "س ف أ 1764",
+      "vehicle_type_id": "17-4",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 46
+    },
+    {
+      "park": 1257,
+      "vehicle_number": "س ن أ 7389",
+      "vehicle_type_id": "17-4",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 47
+    },
+    {
+      "park": 1281,
+      "vehicle_number": "س ة أ 7864",
+      "vehicle_type_id": "17-4",
+      "sector": "P",
+      "site_id": 2,
+      "id": 48
+    },
+    {
+      "park": 1268,
+      "vehicle_number": "س ه ا 6128",
+      "vehicle_type_id": "17-4",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 49
+    },
+    {
+      "park": 1433,
+      "vehicle_number": "س د و 3163",
+      "vehicle_type_id": "17-5",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 50
+    },
+    {
+      "park": 1432,
+      "vehicle_number": "س د و 3171",
+      "vehicle_type_id": "17-5",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 51
+    },
+    {
+      "park": 1431,
+      "vehicle_number": "س د و 3173",
+      "vehicle_type_id": "17-5",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 52
+    },
+    {
+      "park": 1430,
+      "vehicle_number": "س د و 3181",
+      "vehicle_type_id": "17-5",
+      "sector": "O",
+      "site_id": 2,
+      "id": 53
+    },
+    {
+      "park": 1434,
+      "vehicle_number": "س د و 3183",
+      "vehicle_type_id": "17-5",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 54
+    },
+    {
+      "park": 1438,
+      "vehicle_number": "س د و 5275",
+      "vehicle_type_id": "17-5",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 55
+    },
+    {
+      "park": 1436,
+      "vehicle_number": "س د و 5292",
+      "vehicle_type_id": "17-5",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 56
+    },
+    {
+      "park": 1439,
+      "vehicle_number": "س د و 5325",
+      "vehicle_type_id": "17-5",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 57
+    },
+    {
+      "park": 1444,
+      "vehicle_number": "س د ه 1949",
+      "vehicle_type_id": "17-5",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 58
+    },
+    {
+      "park": 1443,
+      "vehicle_number": "س د ه 1979",
+      "vehicle_type_id": "17-5",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 59
+    },
+    {
+      "park": 1445,
+      "vehicle_number": "س د ه 1981",
+      "vehicle_type_id": "17-5",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 60
+    },
+    {
+      "park": 1279,
+      "vehicle_number": "س ة أ 7863",
+      "vehicle_type_id": "17-4",
+      "sector": "RES",
+      "site_id": 1,
+      "id": 61
     }
   ],
   "daily_inspections": [
@@ -435,6 +1017,5 @@
       "reporter_id": 29246
     }
   ],
-  "inspection_records": [
-  ]
+  "inspection_records": []
 }
