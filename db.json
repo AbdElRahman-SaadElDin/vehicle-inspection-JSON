@@ -308,6 +308,13 @@
       "vehicle_type_id": "17-5",
       "sector": "J",
       "site_id": 1
+    },
+    {
+      "park": 3205,
+      "vehicle_number": "س ل ص 7122",
+      "vehicle_type_id": "7",
+      "sector": "priv",
+      "site_id": 1
     }
   ],
   "daily_inspections": [
