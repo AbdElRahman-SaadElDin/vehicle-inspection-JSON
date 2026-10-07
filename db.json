@@ -190,16 +190,9 @@
     }
   ],
   "vehicles": [
-        {
+    {
       "park": 1435,
       "vehicle_number": "س د و 5295",
-      "vehicle_type_id": "17-5",
-      "sector": "E",
-      "site_id": 1
-    },
-    {
-      "park": 1428,
-      "vehicle_number": "س د ى 7971",
       "vehicle_type_id": "17-5",
       "sector": "E",
       "site_id": 1
@@ -436,84 +429,5 @@
     }
   ],
   "inspection_records": [
-    {
-      "park": 1234,
-      "vehicle_id": "س ص ع 7972",
-      "employee_id": 29246,
-      "inspection_date": "2024-06-01",
-      "inspection_time": "08:00",
-      "in_out": "دخول",
-      "inspection_items": {
-        "زجاج امامي": true,
-        "زجاج يمين": true,
-        "زجاج شمال": true,
-        "مرايا يمين": false,
-        "مرايا شمال": true,
-        "انوار امامية يمين": true,
-        "انوار امامية شمال": true,
-        "انوار خلفية يمين": true,
-        "انوار خلفية شمال": true,
-        "رخصة السيارة": true,
-        "الطفاية": true,
-        "الاطارات الأمامية": true,
-        "الاطارات الخلفية": true,
-        "الفرامل": true,
-        "اللوحات الأمامية": true,
-        "اللوحات الخلفية": true
-      }
-    },
-    {
-      "park": 6767,
-      "vehicle_id": "أ ب ج 1005",
-      "employee_id": 29246,
-      "inspection_date": "2024-06-01",
-      "inspection_time": "08:00",
-      "in_out": "دخول",
-      "inspection_items": {
-        "زجاج امامي": true,
-        "زجاج يمين": true,
-        "زجاج شمال": true,
-        "مرايا يمين": true,
-        "مرايا شمال": true,
-        "انوار امامية يمين": false,
-        "انوار امامية شمال": true,
-        "انوار خلفية يمين": true,
-        "انوار خلفية شمال": true,
-        "رخصة السيارة": true,
-        "الطفاية": true,
-        "الاطارات الأمامية": true,
-        "الاطارات الخلفية": false,
-        "الفرامل": true,
-        "اللوحات الأمامية": true,
-        "اللوحات الخلفية": true
-      }
-    },
-    {
-      "park": 1234,
-      "vehicle_id": "أ ب ج 1006",
-      "employee_id": 29246,
-      "inspection_date": "2024-06-01",
-      "inspection_time": "17:00",
-      "in_out": "خروج",
-      "inspection_items": {
-        "زجاج امامي": false,
-        "زجاج يمين": true,
-        "زجاج شمال": true,
-        "مرايا يمين": false,
-        "مرايا شمال": false,
-        "انوار امامية يمين": true,
-        "انوار امامية شمال": true,
-        "انوار خلفية يمين": true,
-        "انوار خلفية شمال": true,
-        "رخصة السيارة": true,
-        "الطفاية": false,
-        "الاطارات الأمامية": true,
-        "الاطارات الخلفية": false,
-        "الفرامل": true,
-        "اللوحات الأمامية": true,
-        "اللوحات الخلفية": false
-      }
-    }
-    
   ]
 }
