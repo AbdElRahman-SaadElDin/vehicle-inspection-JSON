@@ -143,9 +143,6 @@
     {"اللوحة الأمامية": ["سليم", "تالف", "بدون"]},
     {"اللوحة الخلفية": ["سليم", "تالف", "بدون"]},
     {"اخرى": []}
-
-
-    
   ],
   "employees": [
     {
@@ -193,61 +190,131 @@
     }
   ],
   "vehicles": [
-    {
-      "vehicle_id": "س ص ع 7972",
-      "vehicle_type": "جمع 7 م",
-      "sector": "النظافة الحضارية",
-      "site_id": 1,
-      "Government": "الاسكندرية"
+        {
+      "park": 1435,
+      "vehicle_number": "س د و 5295",
+      "vehicle_type_id": "17-5",
+      "sector": "E",
+      "site_id": 1
     },
     {
-      "vehicle_id": "س ص ع 7973",
-      "vehicle_type": "جمع 14 م",
-      "sector": "الكورنيش",
-      "site_id": 1,
-      "Government": "الاسكندرية"
+      "park": 1428,
+      "vehicle_number": "س د ى 7971",
+      "vehicle_type_id": "17-5",
+      "sector": "E",
+      "site_id": 1
     },
     {
-      "vehicle_id": "أ ب ج 1001",
-      "vehicle_type": "جمع 16 م",
-      "sector": "النظافة الحضارية",
-      "site": "أم زغيو",
-      "Government": "الاسكندرية"
+      "park": 1428,
+      "vehicle_number": "س د ى 7971",
+      "vehicle_type_id": "17-5",
+      "sector": "E",
+      "site_id": 1
     },
     {
-      "vehicle_id": "أ ب ج 1002",
-      "vehicle_type": "مكنسة",
-      "sector": "الكورنيش",
-      "site_id": 2,
-      "Government": "الاسكندرية"
+      "park": 1264,
+      "vehicle_number": "س ه أ 5839",
+      "vehicle_type_id": "17-4",
+      "sector": "F",
+      "site_id": 1
     },
     {
-      "vehicle_id": "أ ب ج 1003",
-      "vehicle_type": "قلاب",
-      "sector": "المحطة الوسيطة",
-      "site": "شبرا",
-      "Government": "القاهرة"
+      "park": 1426,
+      "vehicle_number": "س د ى 5785",
+      "vehicle_type_id": "17-5",
+      "sector": "F",
+      "site_id": 1
     },
     {
-      "vehicle_id": "أ ب ج 1004",
-      "vehicle_type": "لودر",
-      "sector": "التعاقدات الخاصة",
-      "site": "حلوان",
-      "Government": "القاهرة"
+      "park": 1404,
+      "vehicle_number": "س ن ب 1267",
+      "vehicle_type_id": "17-5",
+      "sector": "F",
+      "site_id": 1
     },
     {
-      "vehicle_id": "أ ب ج 1005",
-      "vehicle_type": "طواري",
-      "sector": "النظافة الحضارية",
-      "site": "بورسعيد",
-      "Government": "بورسعيد"
+      "park": 1131,
+      "vehicle_number": "س ه أ 5971",
+      "vehicle_type_id": "17-1",
+      "sector": "G",
+      "site_id": 1
     },
     {
-      "vehicle_id": "أ ب ج 1006",
-      "vehicle_type": "بيتش كلين",
-      "sector": "الكورنيش",
-      "site": "بورفؤاد",
-      "Government": "بورسعيد"
+      "park": 1408,
+      "vehicle_number": "س ن ب 1253",
+      "vehicle_type_id": "17-5",
+      "sector": "G",
+      "site_id": 1
+    },
+    {
+      "park": 1291,
+      "vehicle_number": "س ف أ 1765",
+      "vehicle_type_id": "17-4",
+      "sector": "H",
+      "site_id": 1
+    },
+    {
+      "park": 1277,
+      "vehicle_number": "س ف ب 3295",
+      "vehicle_type_id": "17-4",
+      "sector": "H",
+      "site_id": 1
+    },
+    {
+      "park": 1263,
+      "vehicle_number": "س ة أ 5841",
+      "vehicle_type_id": "17-4",
+      "sector": "H",
+      "site_id": 1
+    },
+    {
+      "park": 1251,
+      "vehicle_number": "س ن أ 6932",
+      "vehicle_type_id": "17-4",
+      "sector": "H",
+      "site_id": 1
+    },
+    {
+      "park": 1126,
+      "vehicle_number": "س ة ا 3987",
+      "vehicle_type_id": "17-1",
+      "sector": "I",
+      "site_id": 1
+    },
+    {
+      "park": 1288,
+      "vehicle_number": "س ف أ 1854",
+      "vehicle_type_id": "17-4",
+      "sector": "I",
+      "site_id": 1
+    },
+    {
+      "park": 1132,
+      "vehicle_number": "س ة أ 3928",
+      "vehicle_type_id": "17-1",
+      "sector": "J",
+      "site_id": 1
+    },
+    {
+      "park": 1285,
+      "vehicle_number": "س ف أ 1853",
+      "vehicle_type_id": "17-4",
+      "sector": "J",
+      "site_id": 1
+    },
+    {
+      "park": 1409,
+      "vehicle_number": "س ن ب 1248",
+      "vehicle_type_id": "17-5",
+      "sector": "J",
+      "site_id": 1
+    },
+    {
+      "park": 1429,
+      "vehicle_number": "س د ى 7636",
+      "vehicle_type_id": "17-5",
+      "sector": "J",
+      "site_id": 1
     }
   ],
   "daily_inspections": [
