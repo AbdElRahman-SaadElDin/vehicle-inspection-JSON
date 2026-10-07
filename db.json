@@ -36,41 +36,85 @@
       "Government": "القاهرة"
     }
   ],
-  "sectors": [
-    {
-      "sector_id": 1,
-      "sector_name": "النظافة الحضارية"
+  "sectors": {
+    "النظافة الحضارية": {
+      "القباري":{
+      "sector_id": "E"
     },
-    {
-      "sector_id": 2,
-      "sector_name": "الكورنيش"
+    "النصر":{
+      "sector_id": "F"
     },
-    {
-      "sector_id": 3,
-      "sector_name": "التعاقدات الخاصة"
+    "وسط البلد":{
+      "sector_id": "G"
     },
-    {
-      "sector_id": 4,
-      "sector_name": "المحطة الوسيطة"
+    "محرم بك":{
+      "sector_id": "H"
+    },
+    "الابراهيمية":{
+      "sector_id": "I"
+    },
+    "ابيس":{
+      "sector_id": "J"
+    },
+    "سموحة":{
+      "sector_id": "K"
+    },
+    "سابا باشا":{
+      "sector_id": "L"
+    },
+    "باكوس":{
+      "sector_id": "M"
+    },
+    "سيوف":{
+      "sector_id": "N"
+    },
+    "المندرة":{
+      "sector_id": "O"
+    },
+    "سيدي بشر":{
+      "sector_id": "P"
+    },
+    "ابوقير":{
+      "sector_id": "Q"
+    },
+    "خورشيد":{
+      "sector_id": "R"
+    },
+    "الاحتياط":{
+      "sector_id": "RES"
     }
-  ],
+    },
+    "الكورنيش":{
+      "sector_id": "Cor"
+    },
+    "تعاقدات خاصة":{
+      "sector_id": "priv"
+    },
+    "المحطة الوسيطة":{
+      "sector_id": "station"
+    },
+    "الطبية":{
+      "sector_id": "med"
+    }  
+},
   "vehicle_types": [
     {"vehicle_id": "17-1", "vehicle_type": "جمع 7 م"},
     {"vehicle_id": "17-3", "vehicle_type": "جمع 14 م"},
     {"vehicle_id": "17-4", "vehicle_type": "جمع 16 م"},
     {"vehicle_id": "17-5", "vehicle_type": "جمع 22 م"},
-    {"vehicle_id": "7", "vehicle_type": "هوك لفت"},
-    {"vehicle_id": "16", "vehicle_type": "لودر"},
     {"vehicle_id": "9", "vehicle_type": "كشف"},
+    {"vehicle_id": "7", "vehicle_type": "هوك لفت"},    
     {"vehicle_id": "9-T", "vehicle_type": "طواري"},
     {"vehicle_id": "13", "vehicle_type": "تانك"},
     {"vehicle_id": "8", "vehicle_type": "مكنسة"},
     {"vehicle_id": "8-M", "vehicle_type": "معدة"},
     {"vehicle_id": "15", "vehicle_type": "كباش"},
     {"vehicle_id": "9-K", "vehicle_type": "قلاب"},
-    {"vehicle_id": "18", "vehicle_type": "بيتش كلين"},
-    {"vehicle_id": "99", "vehicle_type": "مقطورة"},
+    {"vehicle_id": "16", "vehicle_type": "لودر"},
+    {"vehicle_id": "18", "vehicle_type": "بيتش كلينر"},
     {"vehicle_id": "100", "vehicle_type": "تريلا"},
+    {"vehicle_id": "med-17", "vehicle_type": "طبية"},
+    {"vehicle_id": "99", "vehicle_type": "مقطورة"},
     {"vehicle_id": "1", "vehicle_type": "تروسيكل"}
   ],
   "inspection_items": [
